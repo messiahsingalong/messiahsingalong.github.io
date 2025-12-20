@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+/* 
+	#xxx is for id="xxx"
+	.yyy is for class="yyy"
+*/	
+
+.pageheader {
+	display:inline;
+}
+.pageheadermobile {
+	display:none;
+}
+
+
+body {
+	font-size: 14px;
+	color: #000000;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #ffebd0;  /* R:255 G:235 B:208 */
+	
+	
+	
+	background-repeat: repeat-x; 
+	margin: 0; 
+	padding: 20px;
+}
+
+h1 {
+	font-size:20px;
+}
+
+
+.banner {
+}
+
+
+
+.onecolumnleft {
+	text-align:left;
+	padding: 0px 15px 10px 15px;
+}
+
+.container {
+	width: 1024px;  
+	margin: 5px auto; 
+	border: 1px solid #000000;	 
+}
+
+.navigation {
+	font-size: 14px;
+	padding: 0px 15px 10px 15px;
+	font-weight: bold;
+	text-align: left; 
+
+}
+.soloiststable {
+	border-collapse:collapse;
+}
+.soloistspic {
+	text-align:	right;
+	vertical-align: top;
+	padding: 10px 20px 10px 10px;
+}
+.soloistsname {
+	text-align:	left;
+	padding: 10px 20px 10px 10px;
+}
+
+
+.nav a:link {
+	color: #d87a00;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.nav a:visited {
+	color: #d87a00;
+	text-decoration: none;	
+	font-weight: bold;
+
+}
+.nav a:hover {
+	color: #ff7403;
+	text-decoration: none;
+	font-weight: bold;
+}
+.nav a:active {
+	color: #d87a00;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:link {
+	color: #d87a00;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:visited {
+	color: #d87a00;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #ff7403;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:active {
+	color: #d87a00;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+.faqtable {
+	border-collapse:collapse;
+}
+
+.faqq {
+	border-top: 1px solid #000000; 
+	width: 250px;
+	text-align:	right;
+	vertical-align: top;
+	padding: 10px 10px 10px 10px;
+}
+
+.faqa {
+	border-top: 1px solid #000000; 
+	
+	text-align:	left;
+	vertical-align: top;
+	padding: 10px 10px 10px 10px;
+}
+
+li.padtop {
+	padding-top:15px;
+	text-align:	left;
+}
+
+div.hidable {
+	overflow:hidden;
+	display:none;
+	margin-left:50px;
+	border-style:solid;
+	border-width:1px;
+	padding:10px;
+}
+
+.sidebarleft {
+	width:			172px; 
+	/* margin:			0px 10px 800px 15px;  */
+	padding:		0px 20px 0px 15px; 
+	float:			left;
+	/* border: 1px solid #FF0000;	    */
+}
+
+.sidebarremainder {
+	text-align:		left;
+	/* margin:			10px 10px 10px 10px; */
+	padding: 		10px 10px 10px 10px; 
+}
+
+
+
+img.sidebarpic {
+	width:  172px;
+	/* height: 240px; */
+}
+
+header {
+	color: #000000;
+	padding-top: 15px;
+	position:relative;
+	border: 1px solid #00FF00;
+	margin: 10px;
+}
+
+
+
+
+
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+img.soloistpic {
+	width:  226px;
+	/* height: 280px; */
+}
+
+/* keep bullets in lists from being indented too much */
+li {
+	margin-left:-25px;
+} 
+
+.imgcenter
+   {
+   width: 95%;
+   display:block;
+   margin:0 auto;
+   text-align:center;
+   } 
+
+/* stuff for navigation tabs */
+
+.navigation ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation li {
+	float: left;
+	background: url(images/tab.png)  top left repeat;  
+	/* border: 1px solid #FF0000;	   */
+	/* color: #888888; */
+	margin: 0;
+}
+
+.navigation a {
+	display: block; 
+	/* background: url(images/tab.png)  top left no-repeat ;  */
+	/* border: 1px solid #0000FF;	   */
+	color: #000000; 
+	text-decoration: none;
+	padding: 0.6em 1em 0.25em; 
+}
+
+.navigation a:hover {
+	color: #ffffff;
+}
+
+ 
+.navigation #selected {
+	font-weight: bold;
+	color: #ffff00;
+	background-image: url(images/tabselected.png) ;
+}
+
+
+.navigation #selected a {
+	background-image: url(images/tabselected.png); 
+	color: #FFFFFF;
+}
+
+img.choirpractice {
+	width: 95%;
+	/* width:  250px; */
+	/* height: 187px; */
+}
+
+.MP3_unused
+   {
+	background-color: #e0e0e0;
+   } 
+
+.MP3_Chorus
+   {
+	background-color: #c0FFc0;
+   } 
+
